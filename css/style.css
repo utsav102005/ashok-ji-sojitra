@@ -44,10 +44,8 @@ body {
     padding: 0.5rem;
 }
 
-.navbar li a:hover {
-    color: whitesmoke;
-    background-color: black;
-    border-radius: 10px;
+.navbar-nav{
+    justify-content: end;
 }
 
 .navbar {
