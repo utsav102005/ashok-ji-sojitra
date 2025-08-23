@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.section {
+    background-color: white;
+}
+
+
+
+/* header */
+
+.header {
+    background-color: antiquewhite;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    padding-left: 50px;
+    font-size: 30px;
+
+}
+
+.navbar li {
+    display: inline;
+    justify-content: end;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.navbar li a:hover {
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 5px;
+}
+
+/* herosection */
+
+.heropage {
+    display: flex;
+}
+
+.ladye img {
+    height: 90vh;
+}
+
+.detail {
+    border: 2px solid black;
+    height: 90vh;
+    width: 50%;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+}
+
+.accordion {
+    width: 50vw;
+}
+
+.row {
+    display: inline-block;
+}
+
+.acroo {
+    display: inline;
+}
+
+.acroo .left {
+    position: absolute;
+    left: 0;
+    width: 50vw;
+    border-right: 0.25px solid black;
+}
+
+.acroo .right {
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    border-left: 0.25px solid black;
+}
