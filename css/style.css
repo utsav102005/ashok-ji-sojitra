@@ -117,3 +117,8 @@ body {
     width: 50vw;
     border-left: 0.25px solid black;
 }
+
+#photo{
+    height: 94vh;
+    width: 100vw;
+}
